@@ -8,4 +8,8 @@
 ## 待实现功能:
 1.解析输入函数表达式以便绘制曲线
 
-## app展示: app\debug\app-debug.apk
+## app展示: 
+app\debug\app-debug.apk
+
+## 图片展示: 
+screenshot
