@@ -9,7 +9,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import java.util.ArrayList;
 
 public class GraphFragment extends Fragment {
     public static GraphFragment newInstance(String param) {
@@ -27,7 +26,7 @@ public class GraphFragment extends Fragment {
                 isFirstVisible = false;
             } else {
                 AxisView axisView = getView().findViewById(R.id.graph);
-                axisView.setF(Cache.getF());
+                //axisView.setF(Cache.getF());
                 axisView.invalidate();
             }
         }

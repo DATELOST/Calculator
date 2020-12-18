@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         final MyPageAdapter myPageAdapter = new MyPageAdapter(this.getSupportFragmentManager());
         ArrayList<Fragment> datas = new ArrayList<Fragment>();
         datas.add(new GraphFragment());

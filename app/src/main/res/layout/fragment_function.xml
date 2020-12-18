@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context="team.seventeen.graphcalculator.FunctionFragment">
 
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/round_button"
+        android:text="确认" />
     <ListView
         android:id="@+id/lv_main"
         android:layout_width="match_parent"
