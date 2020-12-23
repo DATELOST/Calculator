@@ -1,4 +1,4 @@
-### Software Engineering Homework by Group 17
+### Software Engineering Homework by Group 15
 ## 开发环境:  Android Studio 4.0.1
 
 ## 已实现功能:
